@@ -1,0 +1,16 @@
+CREATE TABLE oportunidades (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    data_hora TEXT,
+    portal TEXT,
+    anunciante TEXT,
+    contato TEXT,
+    modelo TEXT,
+    ano TEXT,
+    km INTEGER,
+    preco INTEGER,
+    fipe INTEGER,
+    diferenca INTEGER,
+    local TEXT,
+    link TEXT,
+    status TEXT
+);
