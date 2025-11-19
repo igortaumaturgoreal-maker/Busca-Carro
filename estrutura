@@ -1,0 +1,29 @@
+agente-oportunidades/
+│
+├── api/
+│   ├── scraping/
+│   │   ├── olx.py
+│   │   ├── webmotors.py
+│   │   ├── icarros.py
+│   │   ├── mobiauto.py
+│   │   ├── facebook.py (se possível)
+│   │
+│   ├── fipe/
+│   │   └── fipe_api.py
+│   │
+│   ├── utils/
+│   │   ├── filtros.py
+│   │   ├── planilha.py
+│   │   └── notificacao.py
+│   │
+│   ├── cron/
+│   │   └── buscar_cada_minuto.py
+│   │
+│   └── main.py
+│
+├── data/
+│   └── oportunidades.db  (sqlite)
+│
+├── vercel.json
+│
+└── README.md
