@@ -1,0 +1,3 @@
+def notificar(a, fipe, diff):
+    msg = f"🚘 Oportunidade detectada! {a['modelo']} {a['ano']} – R$ {a['preco']} | FIPE: R$ {fipe} | Margem: R$ {diff} | {a['link']}"
+    # Envia via WhatsApp, Telegram ou e-mail
